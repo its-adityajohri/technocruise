@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
 
 
@@ -9,9 +10,9 @@ body {
 }
 
 .heading{
-  position: absolute;
-  left: 8.63vw;
-  top: 16.627vw;
+  
+  margin-left: 8.63vw;
+  margin-top: 16.627vw;
   display: flex;
   font-family: 'Cera Pro';
   font-style: normal;
@@ -33,9 +34,9 @@ a{
 
 
 .titlespons{
-  position: absolute;
-  left: 20.586vw;
-  top: 28.82vw;
+  
+  margin-left: 20.586vw;
+  margin-top: 6.651vw;
   height: 5.542vw;
   width: 57.007vw;
 
@@ -43,37 +44,27 @@ a{
 }
 
 .graviton{
-  position: relative;
-  left: 25.337vw;
-  top: 41.489vw;
+  
+  margin-left: 25.337vw;
+  margin-top: 7.127vw;
   height: 14.252vw;
   width: 47.506vw;
 }
 
-.titlespons2{
-  position: absolute;
 
-  left: 20.586vw;
-  top: 63.341vw;
-  height: 5.542vw;
-  width: 57.007vw;
-
-
-}
 
 .uptour{
-  position: absolute;
-  top: 76.01vw;
-  left: 17.419vw;
+  margin-top: 8.076vw;
+  margin-left: 17.419vw;
   width: 20.269vw; 
   padding-bottom: 11.876vw;
   height: 32.146vw;
 }
 
 .jk{
-  position: absolute;
-  top: 76.01vw;
-  left: 47.506vw;
+  
+  margin-top: 8.076vw;
+  margin-left: 9.818vw;
   width: 36.421vw; 
   padding-bottom: 11.876vw;
   height: 32.146vw;
@@ -81,36 +72,31 @@ a{
 
 @media (max-width: 900px) {
   .heading{
-    left: 36vw;
+    margin-left: 36vw;
     font-size: 7.5vw;
   }
   .titlespons{
     height: 7vw;
     width: 76vw;
-    left: 11vw;
+    margin-left: 11vw;
   }
   .graviton{
     width: 62vw;
     height: 20vw;
-    left: 18vw;
+    margin-left: 18vw;
   }
-  .titlespons2{
-    height: 7vw;
-    width: 76vw;
-    left: 11vw;
-    top: 70vw;
-  }
+  
   .uptour{
-    top: 83vw;
+    
     width: 28vw;
     height: 40vw;
-    left: 9vw;
+    margin-left: 9vw;
     padding-bottom: 12vw;
   }
   .jk{
-    top: 83vw;
+    
     height: 40vw;
-    left: 45vw;
+    margin-left: 9vw;
     width: 45vw;
     padding-bottom: 12vw;
   }
@@ -119,38 +105,33 @@ a{
 @media (max-width: 550px) {
   .heading{
     
-    left: 30vw;
+    margin-left: 30vw;
     font-size: 10vw;
   }
   .titlespons{
     top: 30vw;
     height: 10vw;
     width: 88vw;
-    left: 4vw;
+    margin-left: 4vw;
   }
   .graviton{
     top: 46vw;
     width: 80vw;
     height: 25vw;
-    left: 8vw;
+    margin-left: 8vw;
   }
-  .titlespons2{
-    height: 10vw;
-    width: 88vw;
-    left: 4vw;
-    top: 78vw;
-  }
+ 
   .uptour{
     top: 145vw;
-    width: 49vw;
-    height: 64vw;
-    left: 23vw;
+    width: 46vw;
+    height: 61vw;
+    margin-left: 23vw;
     padding-bottom: 15vw;
   }
   .jk{
-    top: 95vw;
+    margin-top: 0;
     height: 55vw;
-    left: 10.5vw;
+    margin-left: 10.5vw;
     width: 75vw;
     padding-bottom: 15vw;
   }
