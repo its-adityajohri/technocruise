@@ -16,7 +16,7 @@ export default function Contactus() {
         <h1 className="heading">Sponsors</h1>
         <img className="titlespons" src={img1} alt="image" />
         <img className="graviton" src={img2} alt="image" />
-        <img className="titlespons2" src={img1} alt="image" />
+        <img className="titlespons" src={img1} alt="image" />
         <img className="uptour" src={img3} alt="image" />
         <img className="jk" src={img4} alt="image" />
         
