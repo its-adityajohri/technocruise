@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
+
+
+body {
+  
+  background: black;
+  
+}
+
+.heading{
+  position: absolute;
+  left: 8.63vw;
+  top: 16.627vw;
+  display: flex;
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.542vw;
+  line-height: 6.968vw;
+  color: white;
+}
+
+i{
+  filter: invert();
+  font-size: 18px;
+  
+}
+a{
+  margin: 12px;
+  
+}
+
+
+.titlespons{
+  position: absolute;
+  left: 20.586vw;
+  top: 28.82vw;
+  height: 5.542vw;
+  width: 57.007vw;
+
+
+}
+
+.graviton{
+  position: relative;
+  left: 25.337vw;
+  top: 41.489vw;
+  height: 14.252vw;
+  width: 47.506vw;
+}
+
+.titlespons2{
+  position: absolute;
+
+  left: 20.586vw;
+  top: 63.341vw;
+  height: 5.542vw;
+  width: 57.007vw;
+
+
+}
+
+.uptour{
+  position: absolute;
+  top: 76.01vw;
+  left: 17.419vw;
+  width: 20.269vw; 
+  padding-bottom: 11.876vw;
+  height: 32.146vw;
+}
+
+.jk{
+  position: absolute;
+  top: 76.01vw;
+  left: 47.506vw;
+  width: 36.421vw; 
+  padding-bottom: 11.876vw;
+  height: 32.146vw;
+}
+
+@media (max-width: 900px) {
+  .heading{
+    left: 36vw;
+    font-size: 7.5vw;
+  }
+  .titlespons{
+    height: 7vw;
+    width: 76vw;
+    left: 11vw;
+  }
+  .graviton{
+    width: 62vw;
+    height: 20vw;
+    left: 18vw;
+  }
+  .titlespons2{
+    height: 7vw;
+    width: 76vw;
+    left: 11vw;
+    top: 70vw;
+  }
+  .uptour{
+    top: 83vw;
+    width: 28vw;
+    height: 40vw;
+    left: 9vw;
+    padding-bottom: 12vw;
+  }
+  .jk{
+    top: 83vw;
+    height: 40vw;
+    left: 45vw;
+    width: 45vw;
+    padding-bottom: 12vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .heading{
+    
+    left: 30vw;
+    font-size: 10vw;
+  }
+  .titlespons{
+    top: 30vw;
+    height: 10vw;
+    width: 88vw;
+    left: 4vw;
+  }
+  .graviton{
+    top: 46vw;
+    width: 80vw;
+    height: 25vw;
+    left: 8vw;
+  }
+  .titlespons2{
+    height: 10vw;
+    width: 88vw;
+    left: 4vw;
+    top: 78vw;
+  }
+  .uptour{
+    top: 145vw;
+    width: 49vw;
+    height: 64vw;
+    left: 23vw;
+    padding-bottom: 15vw;
+  }
+  .jk{
+    top: 95vw;
+    height: 55vw;
+    left: 10.5vw;
+    width: 75vw;
+    padding-bottom: 15vw;
+  }
+  
+}
+
+
+#preloader{
+  background:#000 url(preloader.gif) no-repeat center center;
+  height:100vh ;
+  width:100% ;
+  position:fixed ;
+  z-index:100 ;
+}
